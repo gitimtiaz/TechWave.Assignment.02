@@ -485,6 +485,36 @@ footer{
         padding-bottom: 40px;
     }
 
+    /* Freatured ep  */
+    .upper-box h2{
+    padding-top: 40px;
+    font-size: 2rem;
+    }
+    .episode-box{
+    margin-top: 20px;
+    margin: 0 auto;
+    max-width: 380px;
+    padding-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    align-items: center;
+}
+
+.lower-box>h2{
+    margin-top: 40px;
+    font-size: 2rem;
+}
+.alex-box{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(53, 17, 101, 0.4);
+    gap: 24px;
+    text-align: start;
+}
+
+
     /* footer section  */
     footer{
     background-image: url(../assets/footer-mobile.png);
