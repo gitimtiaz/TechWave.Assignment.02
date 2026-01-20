@@ -319,4 +319,30 @@
         padding: 40px 20px;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* Why choose section  */
+    .why-container{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .why-container .section-title h2{
+        padding-top: 40px;
+        font-size: 2rem;
+    }
+    .grid-box-top{
+       margin-top: 16px;
+       grid-template-columns: repeat(1, 1fr);
+       grid-template-rows: repeat(1, 1fr); 
+    }
+    .inbox{
+        width: 400px;
+        padding: 16px 20px;
+    }
+    .inbox h3{
+        font-size: 1.3rem;
+    }
+    .grid-box-bottom{
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 40px;
+    }
 }
