@@ -88,19 +88,6 @@
 
 
 /* banner style section  */
-
-/* mm.banner-container{
-    width: 100%;
-    height: 100vh;
-    background-image: url("../assets/hero-bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 101px 525px;
-} mm*/
 .banner-container{
     background-image: url("../assets/hero-bg.png");
     width: 100%;
@@ -172,10 +159,10 @@
 
 /* About Podcast style section   */
 .about-podcast{
-    background-color: #230E3D;
+    background-color: #1A0B2E;
     color: #FFFFFF;
     text-align: center;
-    padding-bottom: ;
+    padding-bottom: 60px;
 }
 .about-podcast .text-area{
     max-width: 1200px;
@@ -220,27 +207,75 @@
     color: rgba(255, 255, 255, 0.8);
 }
 
-
-
 /* why choose techwave style section  */
 .why-choose-tachwave{
+    background-color: #230E3D;
+}
+.why-container{
+    max-width: 1200px;
+    margin: 0 auto;
     color: #FFFFFF;
-    background-color: #1A0B2E;
 }
-box-one{
+.why-container .section-title h2{
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 120px;
+    text-align: center;
+}
+.grid-box-top{
+    margin-top: 40px;
     display: grid;
-    /* grid-template-columns: repeat(3,1fr); */
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
 }
-.headphone{        
-    border: 1px solid red;
-    grid-row: span2;
+.inbox{
+    border-radius: 40px;
+    padding: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
-.mobile{
-    border: 1px solid lime;
-    grid-column: span-2;
+.inbox h3{
+    font-size: 1.5rem;
+    font-weight: 700;
 }
+.inbox p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+}
+.inbox span{
+    width: 60px;
+    height: 60px;
+}
+.inbox img{
+    width: 100%;
+    height: auto;
+}
+.mobile img{
+    scale: 80%;
 
+}
+.headphone{
+    /* margin-top: 0px; */
+    padding-top: 80px;
+    grid-row: span 2;
+}
+.mobile, .global{
+    grid-column: span 2;
+}
+.grid-box-bottom{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-bottom: 120px;
+}
+.exclusive{
+    grid-column: span 2;
+}
 
 
 
