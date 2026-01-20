@@ -137,6 +137,7 @@
 .banner-text p{
     font-weight: 300;
     margin-top: 8px;
+    color: rgba(255, 255, 255, 0.8);
 }
 .banner-btn{
     margin-top: 24px;
@@ -174,21 +175,50 @@
     background-color: #230E3D;
     color: #FFFFFF;
     text-align: center;
+    padding-bottom: ;
 }
+.about-podcast .text-area{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.about-podcast .text-area h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.about-podcast .text-area p{
+    margin-top: 16px;
+    /* max-width: ; */
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .about-podcast .overview{
     max-width: 1200px;
-    /* width: 100%; */
+    max-height: 94px;
+    margin: 0 auto;
+    padding: 80px 180px 120px 180px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 80px;
+    gap: 60px;
 }
-/* .box1,
-.box2,
-.box3,
-.box4{
-    border: 1px solid #00ff88;
-} */
-
+.box-info{
+    max-width: 180px;
+}
+.box-info h3{
+    color: #00ff88;
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+.box-info p{
+    margin-top: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+}
 
 
 
@@ -210,7 +240,6 @@ box-one{
     border: 1px solid lime;
     grid-column: span-2;
 }
-/* box-two */
 
 
 
@@ -235,19 +264,24 @@ box-one{
     .banner-img{
         scale: 50%;
     }
-.about-podcast .overview{
-        max-width: 570px;
-        gap: 10px;
-    }
 
-    /* .banner-img{
-        scale: 50%;
+    /* podcast section  */
+    .about-podcast{
+        height: 650px;
     }
-    .banner-text{
-        margin-top: 20px;
+    .about-podcast .text-area{
+        max-width: 400px;
     }
-    .banner-btn{
-        margin-top: 10px;
-    } */
-    
+    .about-podcast .text-area h2{
+        font-size: 2rem;
+    }
+    .about-podcast .text-area p{
+        padding-bottom: 40px;
+    }
+    .about-podcast .overview{
+        max-width: 400px;
+        max-height: 210px;
+        padding: 40px 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
