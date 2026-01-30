@@ -83,6 +83,7 @@
 }
 .nav-more{
     display: none;
+    font-size: 2rem;
     padding: 18px 18px;
 }
 
@@ -432,9 +433,8 @@ footer{
         display: inline;
     }
     .banner-container{
-        padding: 80px 10px;
+        padding: 80px 20px;
         background-image: url(../assets/hero-mobile.png);
-        background-position: contain;
     }
     .banner-img{
         margin-top: -50px;
@@ -443,10 +443,13 @@ footer{
 
     /* podcast section  */
     .about-podcast{
-        height: 650px;
+        padding-top: 50px;
+        padding-bottom: 120px;
     }
     .about-podcast .text-area{
         max-width: 400px;
+        padding: 10px;
+        padding-top: 20px;
     }
     .about-podcast .text-area h2{
         font-size: 2rem;
@@ -471,7 +474,7 @@ footer{
         font-size: 2rem;
     }
     .grid-box-top{
-        margin-top: 16px;
+        margin-top: 20px;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr); 
     }
@@ -485,7 +488,7 @@ footer{
     }
     .grid-box-bottom{
         grid-template-columns: repeat(1, 1fr);
-        padding-bottom: 30px;
+        padding-bottom: 40px;
     }
 
     /* Freatured ep  */
@@ -493,6 +496,7 @@ footer{
     padding-top: 40px;
     font-size: 2rem;
     }
+    
 
     .episode-box{
         max-width: 380px;
@@ -507,26 +511,35 @@ footer{
     .episode-box iframe{
         width: 380px;
         height: 200px;
-}
+    }
+    .episode-box .card h3{
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
  
     /* Alex  */
     .lower-box{
         max-width: 380px;
         margin: 0 auto;
+        margin-bottom: 0px;
+        padding-bottom: 30px;
     }
     .lower-box>h2{
         margin-top: 40px;
-        font-size: 2rem;
+        font-size: 2rem
     }
     .alex-box{
-        
+        padding: 30px;
         display: flex;
         flex-direction: column;
         background-color: rgba(53, 17, 101, 0.4);
         gap: 24px;
         justify-content: center;
         align-items: center;
-        text-align: start;
+        text-align: center;
+    }
+    .alex-box .socials{
+        justify-content: center;
     }
 
 
